@@ -1,0 +1,11 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	string user_name = "user";
+	cout << "Login: ";
+	cin >> user_name;
+	cout << "Hello, " << user_name << "!" << endl;
+}
